@@ -1,0 +1,11 @@
+/* tagName, idName, className */
+h1 {
+  color: blue;
+}
+.para1 {
+  color: blue;
+}
+#pageBottom {
+  background-color: green;
+  color: #fff;
+}

@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #fff;
+  padding: 2rem;
+}
+body {
+  font-family: candara;
+}
+nav {
+  float: right;
+}
+nav a {
+  text-decoration: none;
+  /* box-shadow: 1px 2px 1px rgba(0, 0, 0, 0.342); */
+  padding: 0.4rem;
+  text-transform: uppercase;
+  color: royalblue;
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+}
+nav a:hover {
+  border-bottom: 3px solid orangered;
+  top: 4px;
+  transition: 0.5s;
+}
+/* end of the header styling */
+section {
+  background-image: url(../../images/welder.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.section1Div {
+  padding: 3rem;
+  background-color: rgba(71, 0, 112, 0.459);
+}
+section h2 {
+  margin-bottom: 2rem;
+}
+section p {
+  line-height: 1.8rem;
+  max-width: 80%;
+}
+.btn {
+  padding: 0.8rem 1rem;
+  position: relative;
+  border: none;
+}
+.btn:hover {
+  top: 0.2rem;
+  transition: 0.4s;
+  background: transparent;
+  color: white;
+  box-shadow: 1px 1px 2px rgb(143, 142, 142);
+}
+footer {
+  background-color: #222;
+}
+footer div {
+  float: left;
+  width: 30%;
+  padding: 1.5rem 0.5rem;
+}
